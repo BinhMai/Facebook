@@ -57,10 +57,6 @@
                     <input class="col-md-12 col-sm-12 username" style="margin-top: 20px;padding: 20px" type="text" name="acclogin" placeholder="Email or Username" >
                     <div class="myErrors"></div>
                 </div>
-                <div class="col-md-12 col-sm-12">
-                    <input class="col-md-12 col-sm-12 username" style="margin-top: 20px;padding: 20px" type="text" name="acclogin" placeholder="Email or Username" >
-                    <div class="myErrors"></div>
-                </div>
                 <div class="col-md-12">
                     <input class="col-md-12 col-sm-12 password" style="margin-top: 20px;padding: 20px" type="password" name="passlogin" placeholder="Password">
                     <div class="myErrors"></div>
