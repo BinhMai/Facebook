@@ -14,7 +14,7 @@
         font-family: "Times New Roman";
      }
      label{
-         margin-left: 50px;
+         /*margin-left: 50px;*/
      }
      body { 
         background: url('image/go.jpg') no-repeat center center fixed;
@@ -24,27 +24,28 @@
         background-size: cover;;    
     }
      .formlogin {
-        position:fixed;
+       /* position:fixed;
         top: 45%;
         left: 45%;
         width:600px;
-        height:auto;
-        margin-top: -9em; /*set to a negative number 1/2 of your height*/
-        margin-left: -15em; /*set to a negative number 1/2 of your width*/
+        height:auto;*/
+        margin-top: 10em; /*set to a negative number 1/2 of your height*/
+        /*margin-left: -15em; set to a negative number 1/2 of your width*/
         border: 1px solid #ccc;
         background-color: #f3f3f3;
     }
 </style> 
 
 <body>
-    <div class="col-md-12" style="margin-top: 50px;">
+    <div class="col-md-12 col-sm-12 col-xs-12" style="margin-top: 50px;">
         <div class="col-md-11">
             <a href="#" class="col-md-1 btn btn-primary" style="float: right; padding: 10px"> ShowUsers</a>
             <a href="{{asset('signup')}}" class="col-md-1 btn btn-danger" style="float: right; padding: 10px;margin-right: 10px;" >Đăng Ký</a>            
             <a href="{{asset('login')}}" class="col-md-1 btn btn-success" style="float: right; margin-right: 10px;padding: 10px" >Đăng Nhập</a>            
         </div>
-    </div>    
-	<div class="col-md-5 col-sm-4 formlogin" >
+    </div> 
+    <div class="col-md-3 col-sm-3 col-xs-2"></div>   
+	<div class="col-md-6 col-sm-6 col-xs-8 formlogin" >
 	    <div class="col-md-12 col-sm-12" style="margin-top: 20px">
 	        <h2 class="modal-title text-center">Đăng Nhập Hệ Thống</h2>
 	    </div>
@@ -54,15 +55,15 @@
 
                 <div id="errorLogin"></div>
                 <div class="col-md-12 col-sm-12">
-                    <input class="col-md-12 col-sm-12 username" style="margin-top: 20px;padding: 20px" type="text" name="acclogin" placeholder="Email or Username" >
+                    <input class="col-md-12 col-sm-12 col-xs-12 username" style="margin-top: 20px;padding: 20px" type="text" name="acclogin" placeholder="Email or Username" >
                     <div class="myErrors"></div>
                 </div>
                 <div class="col-md-12">
-                    <input class="col-md-12 col-sm-12 password" style="margin-top: 20px;padding: 20px" type="password" name="passlogin" placeholder="Password">
+                    <input class="col-md-12 col-sm-12 col-xs-12 password" style="margin-top: 20px;padding: 20px" type="password" name="passlogin" placeholder="Password">
                     <div class="myErrors"></div>
                 </div>
                 <div class="col-md-12">
-                    <input type="submit" class="col-md-12 col-sm-12 btn btn-success" style="margin-top: 20px;margin-bottom: 40px;padding: 20px" value="Đăng Nhập" name="login">
+                    <input type="submit" class="col-md-12 col-sm-12 col-xs-12 btn btn-success" style="margin-top: 20px;margin-bottom: 40px;padding: 20px" value="Đăng Nhập" name="login">
                 </div>
             </form>       
 	    </div>
